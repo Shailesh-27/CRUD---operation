@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Registration</title>
+</head>
+<body>
+	
+	<div class="container">
+		<form action="insert.php" method="post">
+            <div class="header">
+			    <h2>Register Here</h2>
+		    </div>
+			<div class="input">
+				<label for="name">Name : </label>
+				<input type="text" name="n1" placeholder="Name here" required>
+			</div>
+			<div class="input">
+				<label for="email">Email : </label>
+				<input type="email" name="em" placeholder="Email here" required>
+			</div>
+			<div class="input">
+				<label for="address">Address : </label>
+				<input type="text" name="ad" placeholder="Address here" required>
+			</div>
+			<div class="input">
+				<label for="mobile">Mobile No : </label>
+				<input type="tel" name="mob" pattern="[789][0-9]{9}" placeholder="Ex:- 9824145365" required>
+			</div>
+			<div class="input">
+				<button class="btn" type="submit" name="regi_user">Submit</button>
+			</div>
+			
+		</form>
+	</div>
+
+</body> 
+</html>
