@@ -6,4 +6,5 @@
    $con->query($q);
 
    header('Location: display.php');
+   
 ?>
